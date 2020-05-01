@@ -1,0 +1,293 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto ;
+    background-color:black;
+}
+
+.sub_title {
+    text-align: center;
+}
+
+/* 日本語の見出し */
+.sub_title h2 {
+    color: #ffd61a;
+    font-size: 24px;
+    /* margin: 60px auto 30px 0; */
+    font-weight: bold;  
+}
+
+/* 本文の文字 */
+.sub_title p {
+    color: white;
+    font-size: 16px ;
+    /* margin-bottom: 60px ;
+    background-color: initial; */
+}
+
+/* 本文の文字 */
+/* 後でまた調整(naviの文字がセンターに来ていない問題) */
+/*------------------ ↓headerの記述 ------------------*/
+.header {
+    width: 1200px;
+    display: table;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    height: 120px;   
+    background-color: black;
+    opacity: 0.8;
+    z-index: 100;
+}
+
+.logo_img {
+    /* display: block; */
+    object-fit: cover;
+    margin: auto 0 auto 30px;
+}
+
+.logo_img img {
+    max-width: 50%;
+    margin: auto 0;
+}
+
+.navi {
+    display: table-cell;
+    display: flex;
+    justify-content: space-between; 
+    font-weight: bold;
+}
+
+.navi_txt {
+    font-size: 21px;
+    padding: 50px 50px 50px 0;
+    text-align: justify;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+
+.main_visual {
+    background: url(../img/budokan_mainvisual.jpeg);
+    width: 960px;
+    height: 600px;
+    background-size: cover;
+    margin: 0 auto ;
+}
+
+.main_visual h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    padding: 500px 0 60px 60px;
+
+}
+
+/* ニュースの幅の指定 */
+.news {
+    width: 1200px;
+    /* background-color: teal; */
+    height: auto;
+    background-color:grey;
+}
+
+.news .sub_title h2 {
+    padding-top: 60px;
+}
+
+.news .sub_title h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.news .sub_title {
+    line-height: 45px;
+}
+
+.news .sub_title p {
+    padding-bottom: 60px;
+}
+
+/* テキスト全体の枠の指定 */
+.news_box {
+    width: 50%;
+    height: auto;
+    position: relative;
+    color: white;
+}
+
+
+/* 画像の幅の指定 */
+.news_box_img  {
+    max-width: 50%;
+    /* width: 600px; */
+    height: auto;
+    /* object-fit: cover; */
+}
+
+.news_box_img img {
+    /* display: block; */
+    width: auto;
+    /* width: 600px; */
+    height: auto;
+    max-width: 100%;
+    /* max-height: 100%; */
+    object-fit: cover;
+}
+
+.news_box_txt_right {
+    padding: auto 0 auto 50px;
+    width: 480px;
+    /* width: 50%; */
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.news_box_txt_left {
+    padding: auto 50px auto 0;
+    width: 480px;
+    /* width: 50%; */
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.news_box_txt_right h2 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.news_box_txt_right p {
+    color: white;
+}
+
+.news_box_txt_left h2 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.news_box_txt_left p {
+    color: white;
+}
+
+#news1 h2 p {
+    
+}
+
+
+
+
+/* 画像とテキストを横並びにする */
+#news_box1 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color: black;
+    /* margin: 0 0 0 auto; */
+}
+
+#news_box2 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+    flex-direction: row-reverse;
+}
+
+#news_box3 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+}
+
+#news_box3 .news_box_img img {
+    width: 600px;
+    height: auto;
+}
+
+#news_box4 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+    flex-direction: row-reverse;
+}
+
+#news_box5 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+}
+
+#news_box6 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+    flex-direction: row-reverse;
+}
+
+#news_box7 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+}
+
+#news_box8 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+    flex-direction: row-reverse;
+}
+
+#news_box9 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    background-color:  black;
+}
+
+#news_box9 .news_box_img img {
+    width: 600px;
+    height: auto;
+}
+
+#raster1 {
+    color: yellowgreen;
+}
+
+#raster2 {
+    color: rgb(226, 226, 48);
+}
+
+#raster3 {
+    color: tomato;
+}
+
+#footer {
+    color: #FFF;
+    text-align: center;
+    background-color: #707070;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
